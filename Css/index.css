@@ -185,7 +185,7 @@ h2{
 }
 
 .card1:hover{
-    box-shadow: 5px 5px 5px 5px;
+    box-shadow: 5px 5px 5px 5px gray;
 }
 
 .card2>h4{
@@ -200,7 +200,7 @@ h2{
 }
 
 .card2:hover{
-    box-shadow: 5px 5px 5px 5px;
+    box-shadow: 5px 5px 5px 5px gray;
 }
 
 .card3>h4{
@@ -215,7 +215,7 @@ h2{
 }
 
 .card3:hover{
-    box-shadow: 5px 5px 5px 5px;
+    box-shadow: 5px 5px 5px 5px gray;
 }
 
 .card4>h4{
@@ -230,7 +230,7 @@ h2{
 }
 
 .card4:hover{
-    box-shadow: 5px 5px 5px 5px;
+    box-shadow: 5px 5px 5px 5px gray;
 }
 
 .card5>h4{
@@ -245,7 +245,7 @@ h2{
 }
 
 .card5:hover{
-    box-shadow: 5px 5px 5px 5px;
+    box-shadow: 5px 5px 5px 5px gray;
 }
 
 .card6>h4{
@@ -260,7 +260,7 @@ h2{
 }
 
 .card6:hover{
-    box-shadow: 5px 5px 5px 5px;
+    box-shadow: 5px 5px 5px 5px gray;
 }
 
 .serviceSection{
