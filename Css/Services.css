@@ -1,0 +1,519 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    margin: auto;
+}
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.navbar img{
+    height: 100px;
+    width: 200px;
+}
+a{
+    text-decoration: none;
+    font-family:inder,sans-serif ;
+    font-weight: 300px;
+    font-size: 18px;
+    color: black;
+    
+}   
+
+a:hover{
+    color: orange;
+}
+ .navbar ul li{
+    list-style: none;
+
+    
+}
+.navbar ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 50%;
+    text-align: center;
+    margin-top: 30px;
+
+}
+.btn{
+    margin-top: 10px;
+    height: 40px;
+    width: 150px;
+    border: 1px solid orange;
+    background-color: orange;
+    border-radius: 30px;
+    color: black;
+    padding: 20 10 8;
+    margin-top: 20px;
+}
+
+.btn:hover{
+    background-color: white;
+}
+
+.bannerbackimg {
+    background-image: url(../images/servicesbanner.png);
+    width: 100%;
+    height: 65vh;
+
+  
+}
+.bannerbackimg img{
+    height: 100%;
+     width: 100%;
+}
+
+   .backimgcont h1{
+    margin-top: 40px;
+    font-family: inter,sans-serif;
+    font-size: 38px;
+    text-align: center;
+    padding: 100px;
+    padding-bottom: 10px;
+    color: orange;
+   }
+    .backimgcont h4{
+    font-family: inter,sans-serif;
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    letter-spacing: 1px;
+    line-height: 18px;
+
+   }
+  
+   .cards1 {
+    margin-top: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+   }
+   .card01 img
+   {
+    border-radius: 30px;
+    height: 65vh;
+    width: 45vw;
+   }
+
+   .card01 img:hover{
+    box-shadow: 5px 5px 5px 5px;
+   }
+   .card1cont h2{
+    font-family: inter,sans-serif;
+    font-size: 24px;
+   }
+   .card1cont h4{
+    font-family: inter,sans-serif;
+    font-size: 18px;
+
+   }
+    .card1cont p{
+    font-family: inter,sans-serif;
+    font-size: 13px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+   .card1cont ul li{
+   font-family: inter,sans-serif;
+    font-size: 14px;
+    list-style-type:circle;
+   }
+   .card1cont button{
+    height: 50px;
+    width: 200px;
+    border-radius: 30px;
+    border: 1px solid orange;
+    background-color: orange;
+   }
+   .card1cont button:hover{
+    background-color: white;
+   }
+
+
+   .commercialconstruction{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 30px;
+   }
+
+
+   .commercialimg img
+   {
+    border-radius: 30px;
+    height: 65vh;
+    width: 45vw;
+   }
+
+   .commercialimg img:hover{
+    box-shadow: 5px 5px 5px 5px;
+   }
+   .commercialcontent h2{
+    font-family: inter,sans-serif;
+    font-size: 24px;
+   }
+   .commercialcontent h4{
+    font-family: inter,sans-serif;
+    font-size: 18px;
+
+   }
+    .commercialcontent p{
+    font-family: inter,sans-serif;
+    font-size: 14px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+   }
+   .commercialcontent ul li{
+   font-family: inter,sans-serif;
+    font-size: 14px;
+    list-style-type:circle;
+   }
+   .commercialcontent button{
+    height: 50px;
+    width: 200px;
+    border-radius: 30px;
+    border: 1px solid orange;
+    background-color: orange;
+   }
+   .commercialcontent button:hover{
+    background-color: white;
+   }
+
+
+
+   .maintainservices{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 30px;
+   }
+
+
+   .maintanservices img
+   {
+    border-radius: 30px;
+    height: 65vh;
+    width: 45vw;
+}
+
+   .maintanservices img:hover{
+    box-shadow: 5px 5px 5px 5px;
+   }
+   .maintancont h2{
+    font-family: inter,sans-serif;
+    font-size: 24px;
+   }
+   .maintancont h4{
+    font-family: inter,sans-serif;
+    font-size: 18px;
+
+   }
+    .maintancont p{
+    font-family: inter,sans-serif;
+    font-size: 14px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+   }
+   .maintancont ul li{
+   font-family: inter,sans-serif;
+    font-size: 14px;
+    list-style-type:circle;
+   }
+   .maintancont button{
+    height: 50px;
+    width: 200px;
+    border-radius: 30px;
+    border: 1px solid orange;
+    background-color: orange;
+   }
+   .maintancont button:hover{
+    background-color: white;
+   }
+
+
+
+   
+
+   .InteriorPlanning{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 30px;
+   }
+
+
+   .interiorimg img
+   {
+    border-radius: 30px;
+    height: 65vh;
+    width: 45vw;   
+}
+
+   .interiorimg img:hover{
+    box-shadow: 5px 5px 5px 5px;
+   }
+   .Interiorcont h2{
+    font-family: inter,sans-serif;
+    font-size: 24px;
+   }
+   .Interiorcont h4{
+    font-family: inter,sans-serif;
+    font-size: 18px;
+
+   }
+    .Interiorcont p{
+    font-family: inter,sans-serif;
+    font-size: 14px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+   }
+   .Interiorcont ul li{
+   font-family: inter,sans-serif;
+    font-size: 14px;
+    list-style-type:circle;
+   }
+   .Interiorcont button{
+    height: 50px;
+    width: 200px;
+    border-radius: 30px;
+    border: 1px solid orange;
+    background-color: orange;
+   }
+   .Interiorcont button:hover{
+    background-color: white;
+   }
+
+
+
+   .Renovation{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 30px;
+   }
+
+
+   .Renovation img
+   {
+    border-radius: 30px;
+    height: 65vh;
+    width: 45vw;
+  }
+
+   .Renovation img:hover{
+    box-shadow: 5px 5px 5px 5px;
+   }
+   .Renovationcont h2{
+    font-family: inter,sans-serif;
+    font-size: 24px;
+   }
+   .Renovationcont h4{
+    font-family: inter,sans-serif;
+    font-size: 18px;
+
+   }
+    .Renovationcont p{
+    font-family: inter,sans-serif;
+    font-size: 14px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+   }
+   .Renovationcont ul li{
+   font-family: inter,sans-serif;
+    font-size: 14px;
+    list-style-type:circle;
+   }
+   .Renovationcont button{
+    height: 50px;
+    width: 200px;
+    border-radius: 30px;
+    border: 1px solid orange;
+    background-color: orange;
+   }
+   .Renovationcont button:hover{
+    background-color: white;
+   }
+
+
+   
+
+   .ArchitecturalPlans{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 30px;
+   }
+
+
+   .ArchitecturalPlansimg img
+   {
+    border-radius: 30px;
+    height: 65vh;
+    width: 45vw;
+   }
+
+   .ArchitecturalPlansimg img:hover{
+    box-shadow: 5px 5px 5px 5px;
+   }
+   .ArchitecturalPlanscont h2{
+    font-family: inter,sans-serif;
+    font-size: 24px;
+   }
+   .ArchitecturalPlanscont h4{
+    font-family: inter,sans-serif;
+    font-size: 18px;
+
+   }
+    .ArchitecturalPlanscont p{
+    font-family: inter,sans-serif;
+    font-size: 14px;
+    font-weight: lighter;
+      letter-spacing: 1px;
+   }
+   .ArchitecturalPlanscont ul li{
+   font-family: inter,sans-serif;
+    font-size: 14px;
+    list-style-type:circle;
+   }
+   .ArchitecturalPlanscont button{
+    height: 50px;
+    width: 200px;
+    border-radius: 30px;
+    border: 1px solid orange;
+    background-color: orange;
+    margin-bottom: 20px;
+   }
+   .ArchitecturalPlanscont button:hover{
+    background-color: white;
+   }
+
+
+
+
+.Readytoproject{
+    height: 100px;
+    width: 300px;
+}
+.Readytoproject img{
+    position: absolute;
+    height: 65vh;
+    width: 98%;
+    margin-left: 20px;
+  
+  background-image: linear-gradient(darkblue, yellow, blue)
+}
+.projectcontent {
+    position: relative;
+    text-align: center;
+}
+.projectcontent h3{
+    font-family: inter,sans-serif;
+    font-size: 30px;
+    
+}
+
+.projectcontent p{
+    font-family: inter,sans-serif;
+    font-size: 16px;
+    color: white;
+    letter-spacing: 1px;
+    
+}
+.projectcontent button{
+     margin-top: 10px;
+    height: 50px;
+    width: 160px;
+    border: 1px solid orange;
+    background-color: orange;
+    border-radius: 30px;
+    color: black;
+    padding: 20 10 8;
+    margin-bottom: 20px;
+}
+.projectcontent button:hover{
+    background-color: aliceblue;
+}
+.projectcontent ol{
+    display: flex;
+    justify-content: center;
+    color:white ;
+    font-family: inter,sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+.projectcontent>ol>li{
+    text-align: center;
+    margin-left: 30px;
+}
+.footer img{
+
+    height: 200px;
+    width: 300px;
+}
+.map{
+    color: orange;
+}
+.phone{
+    color: orange;
+}
+.mail{
+    color: orange;
+}
+.footermain {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 340px;
+    background-color: rgb(11, 11, 54) ;
+    height: 400px;
+    width: 100%;
+    color: white;
+}
+.quiklinks h2{
+    font-family: inter,sans-serif;
+    font-size: 22px;
+    margin-top: 20px;
+
+}
+.quiklinks p{
+    font-family: inter,sans-serif;
+    font-size: 12px;
+    color: white;
+}
+.footerservices h2{
+    font-family: inter,sans-serif;
+    font-size: 22px;  
+    margin-top: 20px;
+}
+.footerservices p{
+    font-family: inter,sans-serif;
+    font-size: 12px;
+    color: white;
+    
+}
+.footer p{
+    font-family: inter,sans-serif;
+    font-size: 14px;
+    margin-top: 20px;
+    color: white;
+    letter-spacing: 1px;
+}
+.contact h2{
+    font-family: inter,sans-serif;
+    font-size: 22px;
+    margin-top: 20px;
+}
+.contact p{
+    font-family: inter,sans-serif;
+    font-size: 12px;
+    color: white;  
+}
+   

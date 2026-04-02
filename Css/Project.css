@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    margin: auto;
+}
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.navbar img{
+    height: 100px;
+    width: 200px;
+}
+a{
+    text-decoration: none;
+    font-family:inder,sans-serif ;
+    font-weight: 300px;
+    font-size: 18px;
+    color: black;
+}   
+
+a:hover{
+    color: orange;
+}
+ .navbar ul li{
+    list-style: none;
+
+    
+}
+.navbar ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 50%;
+    text-align: center;
+    margin-top: 30px;
+
+}
+.btn{
+    margin-top: 10px;
+    height: 40px;
+    width: 150px;
+    border: 1px solid orange;
+    background-color: orange;
+    border-radius: 30px;
+    color: black;
+    padding: 20 10 8;
+    margin-top: 20px;
+}
+.btn:hover{
+    background-color: white;
+}
+.bannerbackimg {
+  background-image: url(../images/About.png);
+    width: auto;
+    height: 65vh;
+  
+}
+.bannerbackimg img{
+     height: 100%;
+     width: 100%;
+}
+.backimgcont{
+    position: relative;
+   }
+   .backimgcont h1{
+    margin-top: 40px;
+    font-family: inter,sans-serif;
+    font-size: 33px;
+    text-align: center;
+     padding: 100px;
+    padding-bottom: 10px;
+    color: orange;
+   }
+    .backimgcont h4{
+    margin-top: 20px;
+    font-family: inter,sans-serif;
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    letter-spacing: 1px;
+    line-height: 18px;
+   }
+
+   .buttons{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 30px;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 30px;
+    
+   }
+  .buttons button{
+    height: 40px;
+    width: 100px;
+    width: 10%;
+    border-radius: 30px;
+    border-color: orange;
+    border-bottom: 5px solid orange;
+  }
+  .bannerflex h2{
+    font-family: inter,sans=serif;
+    font-size: 20px;
+  }
+  .bannerflex p{
+     font-family: inter,sans=serif;
+    font-size: 17px;
+  }
+  .bannerflex button{
+    color: orange;
+    font-family: inter,sans=serif;
+    font-size: 17px;
+    border: none;
+    margin-bottom: 30px;
+  }
+ .bannerflex img{
+    height: 40vh;
+    width:30vw;
+ }
+
+
+
+  .flexproject {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+  }
+  .flexproject img{
+    border-radius: 10px;
+  }
+
+  
+
+.Readytoproject{
+    height: 100px;
+    width: 300px;
+}
+.Readytoproject img{
+    position: absolute;
+    height: 65vh;
+    width: 98%;
+    margin-left: 20px;
+  
+  background-image: linear-gradient(darkblue, yellow, blue)
+}
+.projectcontent {
+    position: relative;
+    text-align: center;
+}
+.projectcontent h3{
+    font-family: inter,sans-serif;
+    font-size: 30px;
+    
+}
+
+.projectcontent p{
+    font-family: inter,sans-serif;
+    font-size: 16px;
+    color: white;
+    letter-spacing: 1px;
+    
+}
+.projectcontent button{
+     margin-top: 10px;
+    height: 50px;
+    width: 160px;
+    border: 1px solid orange;
+    background-color: orange;
+    border-radius: 30px;
+    color: black;
+    padding: 20 10 8;
+    margin-bottom: 20px;
+}
+.projectcontent button:hover{
+    background-color: aliceblue;
+}
+.projectcontent ol{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color:white ;
+    font-family: inter,sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+.projectcontent>ol>li{
+    text-align: center;
+    margin-left: 30px;
+}
+.footer img{
+
+    height: 200px;
+    width: 300px;
+}
+.map{
+    color: orange;
+}
+.phone{
+    color: orange;
+}
+.mail{
+    color: orange;
+}
+.footermain {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 340px;
+    background-color: rgb(11, 11, 54) ;
+    height: 400px;
+    width: 100%;
+    color: white;
+}
+.quiklinks h2{
+    font-family: inter,sans-serif;
+    font-size: 22px;
+    margin-top: 20px;
+
+}
+.quiklinks p{
+    font-family: inter,sans-serif;
+    font-size: 12px;
+    color: white;
+}
+.footerservices h2{
+    font-family: inter,sans-serif;
+    font-size: 22px;  
+    margin-top: 20px;
+}
+.footerservices p{
+    font-family: inter,sans-serif;
+    font-size: 12px;
+    color: white;
+    
+}
+.footer p{
+    font-family: inter,sans-serif;
+    font-size: 14px;
+    margin-top: 20px;
+    color: white;
+    letter-spacing: 1px;
+}
+.contact h2{
+    font-family: inter,sans-serif;
+    font-size: 22px;
+    margin-top: 20px;
+}
+.contact p{
+    font-family: inter,sans-serif;
+    font-size: 12px;
+    color: white;  
+}
+   
